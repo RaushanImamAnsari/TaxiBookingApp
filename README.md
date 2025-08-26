@@ -57,8 +57,6 @@ The project follows a **Layered Architecture** with DTOs and Transformers for cl
 ---
 
 
-with this:
-
 ```markdown
 ## Database Schema (ERD)
 
@@ -91,6 +89,8 @@ erDiagram
         string destination
         double fare
     }
+```
+
 
 🚀 Getting Started
 1️⃣ Clone the Repository
