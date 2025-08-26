@@ -56,7 +56,11 @@ The project follows a **Layered Architecture** with DTOs and Transformers for cl
 
 ---
 
-## 📊 Database Schema (ERD)
+
+with this:
+
+```markdown
+## Database Schema (ERD)
 
 ```mermaid
 erDiagram
@@ -87,6 +91,7 @@ erDiagram
         string destination
         double fare
     }
+
 🚀 Getting Started
 1️⃣ Clone the Repository
 git clone https://github.com/RaushanImamAnsari/TaxiBookingApp.git
