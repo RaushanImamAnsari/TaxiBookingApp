@@ -20,11 +20,3 @@ public class DriverController {
     }
 }
 
-@Autowired
-DriverService driverService;
-
-@PostMapping("/add")
-public DriverResponse addDriver(@RequestBody DriverRequest driverRequest){
-    return driverService.addDriver(driverRequest);
-}
-}
