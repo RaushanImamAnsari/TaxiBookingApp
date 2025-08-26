@@ -58,12 +58,13 @@ The project follows a **Layered Architecture** with DTOs and Transformers for cl
 
 ## 📊 Database Schema (ERD)
 
+```mermaid
 erDiagram
     CUSTOMER ||--o{ BOOKING : books
     DRIVER ||--o{ CAB : owns
     CAB ||--o{ BOOKING : assigned_to
     
-  CUSTOMER {
+    CUSTOMER {
         int id
         string name
         int age
@@ -86,9 +87,7 @@ erDiagram
         string destination
         double fare
     }
-
 🚀 Getting Started
-
 1️⃣ Clone the Repository
 git clone https://github.com/RaushanImamAnsari/TaxiBookingApp.git
 cd TaxiBookingApp
