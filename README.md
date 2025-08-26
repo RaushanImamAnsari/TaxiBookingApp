@@ -101,10 +101,10 @@ cd TaxiBookingApp
 
 Update application.properties with your MySQL username & password.
 
-spring.datasource.url=jdbc:mysql://localhost:3306/taxi_booking
-spring.datasource.username=root
-spring.datasource.password=your_password
-spring.jpa.hibernate.ddl-auto=update
+spring.datasource.url=jdbc:mysql://localhost:3306/taxi_booking  
+spring.datasource.username=root  
+spring.datasource.password=your_password  
+spring.jpa.hibernate.ddl-auto=update  
 
 3️⃣ Run the App
 mvn spring-boot:run
@@ -130,3 +130,11 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 📜 License
 
 This project is licensed under the MIT License – feel free to use and modify it.
+
+### Connected with me:
+
+LinkedIn:[www.linkedin.com/in/raushan-imam-8705xa]
+
+
+
+Thank you for visiting the page!
